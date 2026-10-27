@@ -1,0 +1,53 @@
+{
+  "chosen_model": "Random Forest",
+  "metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0
+  },
+  "confusion_matrix": [
+    [
+      85,
+      0,
+      0
+    ],
+    [
+      0,
+      162,
+      0
+    ],
+    [
+      0,
+      0,
+      154
+    ]
+  ],
+  "model_summary": [
+    {
+      "Model": "Random Forest",
+      "CV Accuracy": 0.9995,
+      "CV Precision": 0.9995,
+      "CV Recall": 0.9995,
+      "CV F1": 0.9995,
+      "CV ROC-AUC": 1.0
+    },
+    {
+      "Model": "SVM",
+      "CV Accuracy": 0.997,
+      "CV Precision": 0.997,
+      "CV Recall": 0.997,
+      "CV F1": 0.997,
+      "CV ROC-AUC": 1.0
+    },
+    {
+      "Model": "Logistic Regression",
+      "CV Accuracy": 0.9965,
+      "CV Precision": 0.9965,
+      "CV Recall": 0.9965,
+      "CV F1": 0.9965,
+      "CV ROC-AUC": 0.9999
+    }
+  ]
+}
